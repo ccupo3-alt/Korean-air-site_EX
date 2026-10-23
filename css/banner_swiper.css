@@ -1,0 +1,11 @@
+.visualSwiper{
+    width: 100%;
+    aspect-ratio: 16/4;
+    background-color: red;
+}
+.visualSwiper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

@@ -1,0 +1,24 @@
+.innerBanner{
+    position: relative;
+    margin-top: 40px;
+}
+.bn-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #061767;
+    transform: translate(-50% , -50%);
+}
+.bn-text h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.service{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: 2px solid #061767;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #061767;
+}

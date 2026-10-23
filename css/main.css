@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* 공통 영역 */
+.inner{
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+button{
+    all: unset;
+}

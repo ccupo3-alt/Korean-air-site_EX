@@ -1,0 +1,21 @@
+.section{
+    margin-top: 80px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    border-radius: 15px;
+    gap: 20px;
+    overflow: hidden;
+    box-shadow: #333;
+}
+.card h3{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: #061767;
+    font-weight: 400;
+    font-size: 18px;
+}
