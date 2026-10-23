@@ -1,0 +1,22 @@
+@media (max-width: 1028px){
+    .noti a{
+        max-width:260px ;
+        white-space: nowrap;      /* 주의: 'no-wrap'이 아니라 'nowrap' (붙여쓰기) */
+    overflow: hidden;         /* 필수: 넘치는 텍스트 숨김 */
+    text-overflow: ellipsis;  /* 필수: 말줄임표(...) 처리 */
+    display: inline-block;
+    }
+}
+@media (max-width: 768px){
+    .notice-bt{
+        flex-direction: column-reverse;
+    }
+    .notice-left ,.notice-right{
+        width: 100%;
+    }
+    .notice-right{
+   
+    aspect-ratio: 2/1;
+    position: relative;
+}
+}

@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- js 연결 -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
     <script src="js/swiper.js" defer></script>
   </head>
   <body>
@@ -109,8 +109,6 @@
               <img src="image/banner 4.png" alt="img4" />
             </div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
         </div>
       </main>
@@ -128,8 +126,8 @@
       <div class="section">
         <div class="inner">
           <div class="swiper cardSwiper">
-            <div class="swiper-wrapper">
-              <a href="#">
+            <div class="swiper-wrapper cardSwiperWrapper">
+              <a href="#" class="swiper-slide">
                 <div class="card">
                   <div class="img-box">
                     <img src="image/하르방.png" alt="하르방" />
@@ -137,7 +135,7 @@
                   <h3>마일리지로 완성하는 제주의 여름</h3>
                 </div>
               </a>
-              <a href="#">
+              <a href="#" class="swiper-slide">
                 <div class="card">
                   <div class="img-box">
                     <img src="image/카드.png" alt="카드" />
@@ -148,7 +146,7 @@
                   </h3>
                 </div>
               </a>
-              <a href="#">
+              <a href="#" class="swiper-slide">
                 <div class="card">
                   <div class="img-box">
                     <img src="image/깊카.png" alt="기프트카드" />
@@ -156,7 +154,7 @@
                   <h3>대한항공 기프트카드로 여행을 선물하세요</h3>
                 </div>
               </a>
-              <a href="#">
+              <a href="#" class="swiper-slide">
                 <div class="card">
                   <div class="img-box">
                     <img src="image/성산.png" alt="성산일출봉" />
@@ -165,6 +163,7 @@
                 </div>
               </a>
             </div>
+            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </div>
@@ -179,7 +178,7 @@
             <div class="notice-left">
               <hr />
               <div class="noti">
-                <a href="#">인천-두바이 왕복 노선 비운항</a>
+                <a href="#" class="noti-bold">인천-두바이 왕복 노선 비운항</a>
                 <p>2026년 7월 10일</p>
               </div>
               <hr />
@@ -200,11 +199,14 @@
                 <a href="#">기내 와이파이 시스템 개선 및 교체</a>
                 <p>2026년 7월 8일</p>
               </div>
+              <hr>
             </div>
             <div class="notice-right">
               <img src="image/어플.png" alt="어플" />
-              <h3>대한항공 My 앱</h3>
-              <p>내 손안의 여행 큐레이터</p>
+              <div class="notice-text">
+                <h3>대한항공 My 앱</h3>
+                <p>내 손안의 여행 큐레이터</p>
+              </div>
             </div>
           </div>
         </div>
@@ -216,53 +218,48 @@
           <a href="#" class="menu-list">
             <div class="menu">
               <p>이벤트</p>
-              <i class="fa-solid fa-gift" style="color: rgb(30, 48, 80)"></i>
+              <i class="fa-solid fa-gift"></i>
             </div>
             <div class="menu">
               <p>대한항공카드</p>
               <i
                 class="fa-regular fa-credit-card"
-                style="color: rgb(30, 48, 80)"
+               
               ></i>
             </div>
             <div class="menu">
               <p>기프트카드</p>
-              <i class="fa-solid fa-ticket" style="color: rgb(30, 48, 80)"></i>
+              <i class="fa-solid fa-ticket"></i>
             </div>
             <div class="menu">
               <p>호텔</p>
-              <i class="fa-solid fa-bed" style="color: rgb(30, 48, 80)"></i>
+              <i class="fa-solid fa-bed"></i>
             </div>
             <div class="menu">
               <p>렌터카</p>
-              <i class="fa-solid fa-car" style="color: rgb(30, 48, 80)"></i>
+              <i class="fa-solid fa-car"></i>
             </div>
             <div class="menu">
               <p>기내 면세점</p>
               <i
-                class="fa-solid fa-suitcase"
-                style="color: rgb(30, 48, 80)"
-              ></i>
+                class="fa-solid fa-suitcase"></i>
             </div>
             <div class="menu">
               <p>여행자 보험</p>
               <i
-                class="fa-solid fa-user-shield"
-                style="color: rgb(30, 48, 80)"
-              ></i>
+                class="fa-solid fa-user-shield"></i>
             </div>
             <div class="menu">
               <p>여행상품</p>
               <i
-                class="fa-solid fa-ticket-simple"
-                style="color: rgb(30, 48, 80)"
-              ></i>
+                class="fa-solid fa-ticket-simple"></i>
             </div>
           </a>
         </div>
       </div>
+      <!-- 푸터 -->
       <footer>
-        <div class="inner">
+        <div class="inner footer-inner">
           <div class="footer-list">
             <h4 class="title">회사소개</h4>
             <ul>

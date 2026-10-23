@@ -1,0 +1,21 @@
+.footer-inner{
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #061767;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+.footer-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-list a{
+    color: #061767;
+    font-size: 18px;
+}

@@ -13,3 +13,10 @@ const visualSwiper = new Swiper(".visualSwiper" , {
           prevEl: '.swiper-button-prev',
         }
 })
+const cardSwiper = new Swiper('.cardSwiper', {
+  slidesPerView: 3,    
+  spaceBetween: 30,
+  scrollbar: {
+          el: '.swiper-scrollbar',
+        },     
+});

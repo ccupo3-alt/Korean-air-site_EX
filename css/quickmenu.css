@@ -1,0 +1,41 @@
+.quickMenu{
+    background-color: #def0fa;
+    height: 305px;
+    margin-top: 100px;
+}
+.qMenu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 35px;
+}
+.qMenu h3{
+    font-size: 24px;
+    color: #061767;
+    font-weight: 500;
+}
+.menu-list{
+    display: flex;
+    gap: 23px;
+}
+.menu{
+    width: 160px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    align-items: center;
+    color: #061767;
+    margin: auto;
+    transform: translateY(-5px);
+}
+.menu p{
+    font-size: 16px;
+    text-align: center;
+}
+.menu i{
+    font-size: 36px;
+}

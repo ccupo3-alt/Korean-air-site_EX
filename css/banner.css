@@ -2,6 +2,9 @@
     position: relative;
     margin-top: 40px;
 }
+.innerBanner img{
+    width: 100%;
+}
 .bn-text{
     position: absolute;
     top: 50%;
